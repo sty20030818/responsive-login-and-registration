@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>响应式登录和注册</title>
+    <link href="./css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-box login">
+        <form action="">
+          <h1>登录</h1>
+          <div class="input-box">
+            <input type="text" placeholder="用户名" required />
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="密码" required />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <div class="forgot-link">
+            <a href="#">忘记密码?</a>
+          </div>
+          <button type="submit" class="btn">登录</button>
+          <p>或通过社交平台登录</p>
+          <div class="social-icons">
+            <a href="#"><i class="bx bxl-google"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-box register">
+        <form action="">
+          <h1>注册</h1>
+          <div class="input-box">
+            <input type="text" placeholder="用户名" required />
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="邮箱" required />
+            <i class="bx bxs-envelope"></i>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="密码" required />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <div class="forgot-link">
+            <a href="#">忘记密码?</a>
+          </div>
+          <button type="submit" class="btn">注册</button>
+          <p>或者在社交平台上注册</p>
+          <div class="social-icons">
+            <a href="#"><i class="bx bxl-google"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="toggle-box">
+        <div class="toggle-panel toggle-left">
+          <h1>Hello, World!</h1>
+          <p>你还没有账号?</p>
+          <button class="btn register-btn">前往注册</button>
+        </div>
+
+        <div class="toggle-panel toggle-right">
+          <h1>欢迎回来!</h1>
+          <p>已有账户?</p>
+          <button class="btn login-btn">前往登录</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
